@@ -1,3 +1,8 @@
 <h2>Our Great Products</h2>
 <!-- ng-repeat over each product in our controller -->
-{{products}}
+<!-- {{products}} -->
+<product product="product" 
+        ng-repeat="product in products"
+        button-label= "Add Item"
+        button-action="addItem(product)"
+></product>

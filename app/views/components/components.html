@@ -1,5 +1,11 @@
 <div>This is going to be a sandbox area where we can build componenets before placing them where they will finally be used.</div>
 
+<cart></cart>
+<product product="product"
+        ng-repeat="product in products"
+        button-label="Add Item to Cart"
+        button-action="addItem(product)"
+        ></product>
 <br/>
 <br/>
 <br/>
